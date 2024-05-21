@@ -1,0 +1,22 @@
+{
+  "name": "rendertest",
+  "version": "1.0.0",
+  "description": "Render deployment test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "deployment"
+  ],
+  "author": "Munkh-Erdene",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
