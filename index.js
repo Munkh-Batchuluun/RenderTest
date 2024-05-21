@@ -52,8 +52,7 @@ app.get('/api/people/:id', (req, res) => {
         res.json(person)
     } else {
         res.status(404).end()
-    }
-    
+    } 
 })
 
 app.post('/api/people', (req, res) => {
