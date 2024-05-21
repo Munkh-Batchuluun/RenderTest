@@ -33,6 +33,7 @@ let people = [
 
 // uses express json parser to get body in json format or access the body data easily
 app.use(express.json())
+app.use(express.static('dist'))
 app.use(cors)
 
 app.get('/', (req, res) => {
